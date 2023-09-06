@@ -2,7 +2,7 @@
   "name": "launchdarkly",
   "version": "1.0.1",
   "description": "React web component to implement launchdarkly",
-  "main": "dist/index.ts",
+  "main": "dist/index.js",
   "keywords": [
     "launchdarkly"
   ],
