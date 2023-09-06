@@ -1,0 +1,60 @@
+{
+  "name": "launchdarkly",
+  "version": "1.0.1",
+  "description": "React web component to implement launchdarkly",
+  "main": "dist/index.js",
+  "keywords": [
+    "launchdarkly"
+  ],
+  "dependencies": {
+    "@rollup/plugin-commonjs": "^25.0.4",
+    "@rollup/plugin-json": "^6.0.0",
+    "@rollup/plugin-node-resolve": "^15.2.1",
+    "@rollup/plugin-sucrase": "^5.0.1",
+    "@rollup/plugin-typescript": "^11.1.3",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.18.34",
+    "@types/react": "^18.2.8",
+    "@types/react-dom": "^18.2.4",
+    "cachestorage": "file:../../cachestorage",
+    "react": "^18.1.0",
+    "react-scripts": "5.0.1",
+    "rollup": "^3.28.1",
+    "rollup-plugin-dts": "^6.0.1",
+    "rollup-plugin-postcss": "^4.0.2",
+    "typescript": "^4.9.5"
+  },
+  "devDependencies": {
+    "@types/crypto-js": "^3.1.47",
+    "axios": "^1.4.0",
+    "jest": "^27.5.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "scripts": {
+    "build": "react-scripts build",
+    "rollup": "rollup -c",
+    "start": "react-scripts start",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  }
+}
